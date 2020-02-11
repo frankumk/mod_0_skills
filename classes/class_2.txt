@@ -1,6 +1,7 @@
 Class: Staff
 
 Attributes:
+members (string array)
 num_scheduled (integer)
 schedule (hash)
 uniform (string array)

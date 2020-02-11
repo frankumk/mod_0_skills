@@ -1,0 +1,23 @@
+Object: servers
+
+
+Attributes
+
+members = ["Sally","Joe","Manny"]
+num_scheduled = 3
+schedule = ["Sally" => 3, "Joe" => 4, "Manny" => 5]
+uniform = ["shoes","shirt","pants"]
+is_working = true
+
+Methods
+servers.add_staff
+#num_scheduled = 4
+
+servers.change_schedule
+#schedule = ["Sally" => 4, "Joe" => 3, "Manny" => 5]
+
+servers.alter_uniform
+#uniform = ["shoes","black shirt","black pants"]
+
+servers.is_working
+#is_working = true
