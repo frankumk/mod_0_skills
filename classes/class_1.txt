@@ -1,0 +1,14 @@
+Class: Dish
+
+Attributes:
+ingredients (string array)
+size (string)
+side (string)
+ordered (boolean)
+number_ordered (integer)
+
+Methods:
+change_ingredient: replaces ingredient in ingredients array
+was_ordered: changes ordered to true
+change_amount: changes number ordered
+change_side: changes side
