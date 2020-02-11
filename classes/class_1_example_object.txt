@@ -1,0 +1,23 @@
+Object: tacos
+
+Attributes:
+ingredients: ["tortilla","carnitas","cilantro","salsa","onions"]
+size: "small"
+side: nil
+ordered: false
+number_ordered: 1
+
+Methods:
+
+tacos.change_ingredient
+#ingredients = ["tortilla","chicken","cilantro","salsa","onions"]
+
+tacos.was_ordered
+#ordered = true
+
+tacos.change_amount
+#number_ordered = 3
+
+tacos.change_side
+#side = "rice"
+
