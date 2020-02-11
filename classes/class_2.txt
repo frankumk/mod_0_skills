@@ -1,0 +1,13 @@
+Class: Staff
+
+Attributes:
+num_scheduled (integer)
+schedule (hash)
+uniform (string array)
+is_working (boolean)
+
+Methods
+add_staff: increases num_scheduled
+change_schedule: replaces schedule value in key (staff member) value (schedule) pair for schedule
+alter_uniform: changes string in uniform
+working: changes is_working to true 
