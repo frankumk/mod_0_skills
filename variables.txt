@@ -1,0 +1,22 @@
+food = "pizza"
+
+is_new = true
+
+food = "salad"
+
+num1 = 1
+
+num2 = 2
+
+num3 = num1 * num2
+
+movies = ["Queen and Slim","Knives Out","Ford v. Ferrari"]
+
+movies.pop()
+
+puts movies
+
+puts movies.length
+
+puts "How many elements are in the array?"
+g = gets.chomp
